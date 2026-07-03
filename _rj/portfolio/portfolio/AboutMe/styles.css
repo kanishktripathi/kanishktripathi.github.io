@@ -1,0 +1,214 @@
+p{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+.heading{
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin: 16px;
+    text-align: justify;
+
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    padding: 100px;
+    font-size: 80px;
+    width: 70px;
+    text-decoration: none;
+    border-radius: 50%;
+    list-style: none;
+    display: inline;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    color: white;
+    list-style: none;
+    width:30px;
+  }
+  
+ 
+  .fa fa-linkedin {
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    width: 30px;
+    height: 30px;
+    font-weight: 800;
+    font-size: large;
+  }
+  ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-start: 0px;
+      margin-inline-end:0px;
+      padding-inline-start: 40px;
+      text-align: center;
+  }
+
+  
+  li{
+      list-style: none;
+      margin: 100px 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      padding: 200px 200px;
+      border: 100px solid #ffffff;
+      border-radius: 80%;
+      text-align: center;
+     
+  }
+  .media{
+      position: absolute;
+      top:40%;
+      left:50%;
+      text-align: center;
+      font-weight: 300;
+      font-size: 50px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row{
+    display: inline-block;
+    text-align: justify;
+  }
+  .card-body{
+
+  text-align: left;
+  }
+  
+  .column {
+    display: block;
+    float: left;
+    margin-right: 5px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  img{
+   width: 100px;
+   height: 90px;
+
+  }
+
+  .social-icons-lists {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    }
+
+    #social-icons p{
+
+      font-size: 2em;
+      display:block;
+      padding-right: 0.5em;
+      box-sizing: border-box;
+      
+      }
+      
+div.row{
+  font: 14px;
+  margin: 0px-15px;
+}     
+
+@media (min-width: 768px) {
+  .container {
+    font-size: 18px; /* increase font size to 18 pixels on larger screens */
+  }
+
+  .mobile-call-icon {
+    display: none; /* hide mobile call icon */
+  }
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  }
+  .card{
+    flex:auto;
+  }
+  
+  @media(min-width:300px)
+{
+  body{
+    width: 50rem;
+  }
+}
+
+@media(min-width:800px)
+{
+  body{
+    width: 78rem;
+  }
+}
+
+@media(min-width:1200px)
+{
+  body{
+    width: 100rem;
+  }
+}

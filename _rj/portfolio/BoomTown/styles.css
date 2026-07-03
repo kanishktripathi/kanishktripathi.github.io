@@ -1,0 +1,27 @@
+
+  
+   .card{
+       box-sizing: border-box;
+   }
+
+   @media(min-width:768px) {
+    .card {
+        width: 750px;
+
+    }
+}
+
+@media(min-width:992px) {
+    .card {
+        width: 970px;
+
+    }
+
+}
+
+@media(min-width:1200px) {
+    .card{
+        width: 1170px;
+
+    }
+}
